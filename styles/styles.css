@@ -2,12 +2,12 @@ nav {background-color: darkblue;
 padding: 10px;}
 main{
     max-width: 480px;
+
     main img {
-        border-radius: 50%;
+        
         width: 150px;
-        height: 150px;
-      }
-      
+        height: auto;
+      }    
 }
 aside img{
     width: 200px;
@@ -26,9 +26,9 @@ p{
 padding: 0;
 }
 footer {
-    margin-top: 15px;           /* 1️⃣ Adds space above the footer */
-    border-top: 1px solid #0000; /* 2️⃣ Adds a light gray top border */
-    text-align: center;         /* 3️⃣ Centers the footer text */
+    margin-top: 15px;           /* Adds space above the footer */
+    border-top: 1px solid #0000; /* Adds a light gray top border */
+    text-align: center;         /* Centers the footer text */
     
   }
   

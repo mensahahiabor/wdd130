@@ -2,16 +2,33 @@ nav {background-color: darkblue;
 padding: 10px;}
 main{
     max-width: 480px;
+    main img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+      }
+      
 }
 aside img{
     width: 200px;
     height: auto;
 }
-aside{width: 20em;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0 .2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+aside {
+    width: 20rem;                  /* Sets the width of the aside box */
+    margin: 1rem auto;             /* Adds vertical margin and centers horizontally */
+    border: 1px solid #ccc;        /* Light gray border around the aside */
+    padding: 1rem;                 /* Adds spacing inside the box */
+    background-color: #f9f9f9;     /* Light background color */
+    color: #333;                   /* Dark text color for good readability */
 }
+
+p{
+padding: 0;
+}
+footer {
+    margin-top: 15px;           /* 1️⃣ Adds space above the footer */
+    border-top: 1px solid #0000; /* 2️⃣ Adds a light gray top border */
+    text-align: center;         /* 3️⃣ Centers the footer text */
+    
+  }
+  

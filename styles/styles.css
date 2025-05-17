@@ -3,10 +3,11 @@ padding: 10px;}
 main{
     max-width: 480px;
 
-    main img {
-        
+    img {
         width: 150px;
         height: auto;
+      
+      
       }    
 }
 aside img{

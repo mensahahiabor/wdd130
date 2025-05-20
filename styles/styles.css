@@ -1,13 +1,11 @@
-nav {background-color: darkblue;
+nav a {background-color: darkblue;
 padding: 10px;}
 main{
     max-width: 480px;
 
     img {
-        width: 150px;
-        height: auto;
-      
-      
+    width: 150px;
+    height: auto;
       }    
 }
 aside img{

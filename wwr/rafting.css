@@ -1,9 +1,9 @@
 :root {
     /* Color scheme */
-    --primary-color: #0D3B66;    /* example: deep blue */
-    --secondary-color: #F4D35E;  /* example: golden yellow */
-    --accent1-color: #EE964B;    /* example: orange */
-    --accent2-color: #F95738;    /* example: red-orange */
+    --primary-color: #0D3B66;   
+    --secondary-color: #F4D35E; 
+    --accent1-color: #EE964B;    
+    --accent2-color: #F95738;    
   
     /* Typography */
     --heading-font: 'Merriweather', serif;

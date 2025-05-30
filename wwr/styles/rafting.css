@@ -22,6 +22,19 @@
   header, main, footer {
     width: 840px;
     margin: 0 auto;
+  header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding: 1rem;
+}
+header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding: 1rem;
+}
+
   }
   h1, h2 {
     font-family: var(--heading-font);

@@ -1,0 +1,23 @@
+header, footer {
+  background-color: #004e89;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.adventure-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}

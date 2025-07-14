@@ -1,25 +1,55 @@
+/* Navigation Styles */
 nav {
     background-color: darkblue;
-    padding: 10px
-}
-nav a {
+    padding: 10px;
+  }
+  
+  nav a {
     color: white;
-    display:block;
+    display: block;
     padding: 20px;
-}
- h1 {
+  }
+  
+  /* Heading Styles */
+  h1 {
     color: darkblue;
- }
-
- img {
+  }
+  
+  /* Image in Main Section (Profile) */
+  main img {
     width: 150px;
     height: auto;
     border: 1px solid darkblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
- }
-
- p {
-    padding: 10px;
- }
- 
+  }
+  
+  /* Paragraphs */
+  p {
+    padding: 0;
+  }
+  
+  /* Aside Section */
+  aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Image in Aside Section */
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }
+  

@@ -14,6 +14,15 @@ nav {
   h1 {
     color: darkblue;
   }
+
+  /* styles/styles.css */
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
   
   /* Image in Main Section (Profile) */
   main img {

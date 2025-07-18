@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rafting Site">
+    <meta name="description" content="Learn more about Splash White Water Rafting - our mission, history, and thrilling adventures.">
     <meta name="author" content="Ahiabor Mensah">
-    <title>About Us - White Water Raftin</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <title>About Us - Splash White Water Rafting</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
@@ -20,43 +23,60 @@
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact</a>
         </nav>
+        <h1>Splash White Water Rafting</h1>
     </header>
-    <main>
-        <div> class="hero"></div>
-        <h1>SPLASH WHITE WATER RAFTING</h1>
 
-        <article>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="images/hero.png" alt="Exciting rafting on a wild river" class="hero-img">
+            <h2>Adventure Awaits You!</h2>
+        </section>
+
+        <!-- Our Mission Article -->
+        <article class="mission">
+            <h2>Our Mission</h2>
             <img src="images/worker.jpeg" alt="Smiling rafting guide wearing safety gear" width="300">
-            <p>Our mission is to provide the best rafting experience with safety, adventure, and fun at the core of our values.</p>
+            <p>
+                Our mission is to provide the best rafting experience with safety, adventure, and fun at the core of our values.
+            </p>
         </article>
 
-        <section>
-            <h2>History</h2>
-            <p>Founded in 1995, our company has been offering top-notch rafting adventures for over 25 years.</p>
+        <!-- History Section -->
+        <section class="history">
+            <h2>Our History</h2>
+            <p>
+                Founded in 1995, our company has been offering top-notch rafting adventures for over 25 years.
+                We pride ourselves on creating unforgettable experiences for thrill-seekers and nature lovers alike.
+            </p>
         </section>
 
-        <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/raft-1.jpg" alt="Group of rafters paddling through rapids-1">
-            <img src="images/raft-2.jpg" alt="Raft approaching a waterfall on the river-2">
-            <img src="images/raft-3.jpg" alt="Team of adventurers navigating white water-3">
-            <img src="images/raft-4.jpg" alt="Excited tourists on a rafting trip-4">
-            <img src="images/raft-5.jpg" alt="Raft bouncing over rocky river terrain-5">
+        <!-- Adventure Gallery -->
+        <section class="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-images">
+                <img src="images/raft-1.jpg" alt="Group of rafters paddling through rapids">
+                <img src="images/raft-2.jpg" alt="Raft approaching a waterfall on the river">
+                <img src="images/raft-3.jpg" alt="Team of adventurers navigating white water">
+                <img src="images/raft-4.jpg" alt="Excited tourists on a rafting trip">
+                <img src="images/raft-5.jpg" alt="Raft bouncing over rocky river terrain">
+            </div>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2025 White Water Rafting Co. | Ahiabor Mensah.</p>
-        <a href="https://facebook.com">
-            <img src="images/facebook.svg" alt="Follow us on Facebook for more" width="30" height="30">
-        </a>
-
-        <a href="https://twitter.com">
-            <img src="images/twitter.svg" alt="Follow us on Twitter for more" width="30" height="30">
-        </a>
-
-        <a href="https://instagram.com">
-            <img src="images/instagram.svg" alt="See our photos gallery on Instagram" width="30" height="30">
-        </a>
+        <p>&copy; 2025 Splash White Water Rafting | Ahiabor Mensah</p>
+        <div class="social-links">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook" width="30" height="30">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter" width="30" height="30">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram" width="30" height="30">
+            </a>
+        </div>
     </footer>
 </body>
 </html>

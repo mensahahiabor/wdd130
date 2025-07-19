@@ -51,7 +51,7 @@ main {
   
   /* Image in Aside Section */
   aside img {
-    width: 200px;
+    width: 150px;
     height: auto;
   }
   
@@ -62,3 +62,58 @@ main {
     text-align: center;
   }
   
+  .hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent1-color);
+    font-size: 3rem;
+    background-color: rgba(0, 78, 137, 0.6);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 78, 100, 0.8);
+    padding: 20px;
+    color: white;
+    width: 60%;
+    border-radius: 8px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    width: 150px;
+    height: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+  font-family: 'Lato', sans-serif;
+}
+
+

@@ -1,75 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Rafting Site">
-        <meta name="author" content="Ahiabor Mensah">
-        <title>About Us - White Water Rafting</title>
-      
-        <!-- Google Fonts (at least 3 links with 2 families) -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      
-        <!-- Font 1: Roboto -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-        
-        <!-- Font 2: Lato -->
-        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-      
-        <!-- Font 3: Montserrat -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-      
-        <link rel="stylesheet" href="styles/rafting.css">
-      </head>
-      
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Splash White Water Rafting - our mission, history, and adventure gallery">
+    <meta name="author" content="Ahiabor Mensah">
+    <title>About Us - Splash White Water Rafting</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Font 1: Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font 2: Lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Font 3: Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
 <body>
     <header>
-        <img src="images/logo.png" alt="Rafting Site Logo" class="logo">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <img src="images/logo.png" alt="Splash White Water Rafting Logo" class="logo">
         <h1>Splash White Water Rafting</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <!-- Hero Section -->
         <div class="hero">
-            <img src="images/hero.png" alt="Rafting adventure hero image">
-           
-           
+            <img src="images/hero.png" alt="Rafting adventure through rushing white water rapids">
+            <div class="hero-content">
+                <h2>Adventure Awaits</h2>
+                <p>Experience the thrill of white water rafting with experienced guides</p>
+            </div>
         </div>
 
         <!-- Our Mission Article -->
         <article class="mission">
-            <h2>Our Mission</h2>
-            <img src="images/worker.jpeg" alt="Smiling rafting guide wearing safety gear" width="300">
-            <p>
-                Our mission is to provide the best rafting experience with safety, adventure, and fun at the core of our values.
-            </p>
+            <div class="mission-content">
+                <h2>Our Mission</h2>
+                <p>
+                    Our mission is to provide the best rafting experience with safety, adventure, and fun at the core of our values. 
+                    We believe that every person deserves to experience the raw power and beauty of nature while maintaining the highest 
+                    standards of safety and environmental stewardship. Our expert guides are passionate about sharing their knowledge 
+                    and ensuring that every adventure creates lasting memories.
+                </p>
+            </div>
+            <img src="images/worker.jpeg" alt="Professional rafting guide wearing safety gear and smiling confidently">
         </article>
 
         <!-- History Section -->
         <section class="history">
             <h2>Our History</h2>
             <p>
-                Founded in 1995, our company has been offering top-notch rafting adventures for over 25 years.
-                We pride ourselves on creating unforgettable experiences for thrill-seekers and nature lovers alike.
+                Founded in 1995, Splash White Water Rafting has been offering top-notch rafting adventures for over 25 years.
+                We pride ourselves on creating unforgettable experiences for thrill-seekers and nature lovers alike. Starting 
+                with just two rafts and a dream, we've grown to become the premier white water rafting company in the region, 
+                serving thousands of adventurers annually while maintaining our commitment to safety, sustainability, and 
+                exceptional customer service.
             </p>
         </section>
 
         <!-- Adventure Gallery -->
         <section class="gallery">
-            <h2>Photo Gallery</h2>
+            <h2>Adventure Gallery</h2>
             <div class="gallery-images">
-                <img src="images/raft-1.jpg" alt="Group of rafters paddling through rapids">
-                <img src="images/raft-2.jpg" alt="Raft approaching a waterfall on the river">
-                <img src="images/raft-3.jpg" alt="Team of adventurers navigating white water">
-                <img src="images/raft-4.jpg" alt="Excited tourists on a rafting trip">
-                <img src="images/raft-5.jpg" alt="Raft bouncing over rocky river terrain">
+                <figure>
+                    <img src="images/raft-1.jpg" alt="Group of excited rafters paddling through challenging rapids" loading="lazy">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/raft-2.jpg" alt="Raft approaching a spectacular waterfall on the scenic river" loading="lazy">
+                    <figcaption>Waterfall Thunder</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/raft-3.jpg" alt="Expert team navigating intense white water rapids" loading="lazy">
+                    <figcaption>Big Mallard Rapids</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/raft-4.jpg" alt="Happy tourists celebrating their successful rafting adventure" loading="lazy">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/raft-5.jpg" alt="Raft bouncing dramatically over rocky river terrain" loading="lazy">
+                    <figcaption>Rock Garden Run</figcaption>
+                </figure>
             </div>
         </section>
     </main>
@@ -77,14 +104,14 @@
     <footer>
         <p>&copy; 2025 Splash White Water Rafting | Ahiabor Mensah</p>
         <div class="social-links">
-            <a href="https://facebook.com">
-                <img src="images/facebook.svg" alt="Follow us on Facebook for more of our activities" width="30" height="30">
+            <a href="https://facebook.com" aria-label="Follow us on Facebook">
+                <img src="images/facebook.svg" alt="Facebook">
             </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.svg" alt="Follow us on Twitter for more of our activities" width="30" height="30">
+            <a href="https://twitter.com" aria-label="Follow us on Twitter">
+                <img src="images/twitter.svg" alt="Twitter">
             </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Follow us on Instagram for more of our activities" width="30" height="30">
+            <a href="https://instagram.com" aria-label="Follow us on Instagram">
+                <img src="images/instagram.svg" alt="Instagram">
             </a>
         </div>
     </footer>

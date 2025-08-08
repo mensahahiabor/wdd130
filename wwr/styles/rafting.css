@@ -318,3 +318,275 @@ footer p {
         padding: 1rem;
     }
 }
+
+
+
+
+/* ===================================
+   CONTACT PAGE SPECIFIC STYLES
+   Add these styles to your rafting.css file
+   =================================== */
+
+/* Contact Information Section */
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin: 3rem 0;
+    align-items: start;
+}
+
+.company-details h2 {
+    color: #1e3a8a;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info-item {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.info-item strong {
+    color: #1e3a8a;
+    display: inline-block;
+    width: 80px;
+    font-weight: 600;
+}
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* Employee Profiles Section */
+.employee-profiles {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.employee-profiles h2 {
+    color: #1e3a8a;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.employee-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.employee-card:hover {
+    transform: translateY(-5px);
+}
+
+.employee-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.employee-card h3 {
+    color: #1e3a8a;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.employee-card .title {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.employee-card p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+/* Contact Form Section */
+.contact-form {
+    margin: 4rem 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #1e3a8a;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #1e3a8a;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+/* Radio Button Styling */
+.radio-group {
+    margin-bottom: 1.5rem;
+}
+
+.radio-group > label {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.radio-option input[type="radio"] {
+    margin: 0;
+}
+
+.radio-option label {
+    margin: 0;
+    font-weight: normal;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Checkbox Styling */
+.checkbox-group {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin: 0;
+}
+
+.checkbox-group label {
+    margin: 0;
+    font-weight: normal;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.submit-btn:hover {
+    background-color: #1e40af;
+}
+
+/* Footer Wireframe Link Styling */
+footer p a {
+    color: #87ceeb;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* ===================================
+   RESPONSIVE DESIGN FOR CONTACT PAGE
+   =================================== */
+
+@media (max-width: 768px) {
+    .contact-info {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .employee-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .radio-options {
+        gap: 0.75rem;
+    }
+
+    .contact-form {
+        margin: 2rem 1rem;
+        padding: 1.5rem;
+    }
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Splash White Water Rafting for reservations, general inquiries, and website suggestions. Find our location, meet our team, and get in touch today.">
+    <meta name="author" content="Ahiabor Mensah">
+    <title>Contact Us - Splash White Water Rafting</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Font 1: Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font 2: Lato -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- Font 3: Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Splash White Water Rafting Logo" class="logo">
+        <h1>Splash White Water Rafting</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <div class="hero">
+            <img src="images/hero.png" alt="Contact Splash White Water Rafting for your next adventure">
+            <div class="hero-content">
+                <h2>Get In Touch</h2>
+                <p>Ready for your next adventure? Contact us for reservations and inquiries</p>
+            </div>
+        </div>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <div class="company-details">
+                <h2>Contact Information</h2>
+                <div class="info-item">
+                    <strong>Address:</strong> 1234 River Rapids Road, Adventure Valley, AV 12345
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong> (555) 123-RAFT
+                </div>
+                <div class="info-item">
+                    <strong>Email:</strong> info@splashrafting.com
+                </div>
+                <div class="info-item">
+                    <strong>Hours:</strong> Daily 8:00 AM - 6:00 PM (Seasonal: April - October)
+                </div>
+                <div class="info-item">
+                    <strong>Emergency:</strong> (555) 911-HELP
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830921453!2d-74.11976314309273!3d40.69767006458873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty!5e0!3m2!1sen!2sus!4v1699564731234!5m2!1sen!2sus" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Splash White Water Rafting Location">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Employee Profiles Section -->
+        <section class="employee-profiles">
+            <h2>Meet Our Expert Team</h2>
+            <p>Our experienced and certified guides are passionate about providing safe and thrilling adventures on the river.</p>
+            
+            <div class="employee-grid">
+                <div class="employee-card">
+                    <img src="images/happyemployee1.png" alt="Sarah Martinez - Lead Guide with safety equipment and bright smile">
+                    <h3>Sarah Martinez</h3>
+                    <p class="title">Lead Guide & Safety Coordinator</p>
+                    <p>With over 12 years of experience on the rapids, Sarah ensures every adventure is both thrilling and safe. She's certified in Swift Water Rescue and Wilderness First Aid.</p>
+                </div>
+                <div class="employee-card">
+                    <img src="images/happyemloyee2.png" alt="Mike Johnson - Senior Adventure Guide showing enthusiasm">
+                    <h3>Mike Johnson</h3>
+                    <p class="title">Senior Adventure Guide</p>
+                    <p>Mike brings 8 years of guiding experience and an infectious enthusiasm for white water rafting. He specializes in Class III-IV rapids and loves sharing river knowledge.</p>
+                </div>
+                <div class="employee-card">
+                    <img src="images/happyemployee3.png" alt="Emma Chen - Adventure Photographer capturing moments">
+                    <h3>Emma Chen</h3>
+                    <p class="title">Guide & Adventure Photographer</p>
+                    <p>Emma combines her love for rafting with professional photography skills, ensuring your memories are captured beautifully while keeping you safe on the water.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                </div>
+                
+                <div class="radio-group">
+                    <label>Purpose of Message *</label>
+                    <div class="radio-options">
+                        <div class="radio-option">
+                            <input type="radio" id="general" name="purpose" value="general" required>
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="reservation" name="purpose" value="reservation" required>
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="website" name="purpose" value="website" required>
+                            <label for="website">Website Suggestion</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message *</label>
+                    <textarea id="message" name="message" required placeholder="Please tell us how we can help you or share your thoughts..."></textarea>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                
+                <button type="submit" class="submit-btn">Send Your Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Splash White Water Rafting | Ahiabor Mensah</p>
+        <p><a href="wireframes/contact-wireframe.html">View Contact Page Wireframe</a></p>
+        <div class="social-links">
+            <a href="https://facebook.com" aria-label="Follow for more content on Facebook">
+                <img src="images/facebook.svg" alt="Follow us for more on Facebook">
+            </a>
+            <a href="https://twitter.com" aria-label="Follow for more amazing content on Twitter">
+                <img src="images/twitter.svg" alt="Follow us for more amazing on Twitter">
+            </a>
+            <a href="https://instagram.com" aria-label="Follow for more amazing on Instagram">
+                <img src="images/instagram.svg" alt="Follow us for more amazing on Instagram">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

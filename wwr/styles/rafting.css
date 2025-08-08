@@ -24,20 +24,20 @@ header {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 3px solid white;
-    object-fit: cover;
-}
-
 header h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: 700;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
 }
 
 /* Navigation with Flexbox */
@@ -252,6 +252,15 @@ footer p {
     margin: 0;
 }
 
+footer p a {
+    color: #87ceeb;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
 .social-links {
     display: flex;
     gap: 1rem;
@@ -275,56 +284,8 @@ footer p {
     filter: brightness(2) invert(0);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    header {
-        grid-template-columns: 1fr;
-        text-align: center;
-        gap: 1rem;
-    }
-
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    nav ul {
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
-
-    .mission {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-
-    .gallery-images {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .gallery-images figure {
-        flex: none;
-        width: 100%;
-        max-width: 300px;
-    }
-
-    footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    main {
-        padding: 1rem;
-    }
-}
-
-
-
-
 /* ===================================
    CONTACT PAGE SPECIFIC STYLES
-   Add these styles to your rafting.css file
    =================================== */
 
 /* Contact Information Section */
@@ -336,11 +297,26 @@ footer p {
     align-items: start;
 }
 
-.company-details h2 {
+/* Consolidated h2 styles for contact page */
+.company-details h2,
+.employee-profiles h2,
+.contact-form h2 {
     color: #1e3a8a;
     font-size: 2rem;
-    margin-bottom: 1.5rem;
     font-family: 'Montserrat', sans-serif;
+}
+
+.company-details h2 {
+    margin-bottom: 1.5rem;
+}
+
+.employee-profiles h2 {
+    margin-bottom: 2rem;
+}
+
+.contact-form h2 {
+    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .info-item {
@@ -372,13 +348,6 @@ footer p {
 .employee-profiles {
     margin: 4rem 0;
     text-align: center;
-}
-
-.employee-profiles h2 {
-    color: #1e3a8a;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .employee-grid {
@@ -439,19 +408,13 @@ footer p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.contact-form h2 {
-    color: #1e3a8a;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .form-group {
     margin-bottom: 1.5rem;
 }
 
-.form-group label {
+/* Consolidated label styles */
+.form-group label,
+.radio-group > label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -459,6 +422,11 @@ footer p {
     font-family: 'Lato', sans-serif;
 }
 
+.radio-group > label {
+    margin-bottom: 0.75rem;
+}
+
+/* Consolidated input styles */
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group textarea {
@@ -488,13 +456,6 @@ footer p {
     margin-bottom: 1.5rem;
 }
 
-.radio-group > label {
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    display: block;
-    font-family: 'Lato', sans-serif;
-}
-
 .radio-options {
     display: flex;
     flex-direction: column;
@@ -511,7 +472,9 @@ footer p {
     margin: 0;
 }
 
-.radio-option label {
+/* Consolidated label styles for radio and checkbox */
+.radio-option label,
+.checkbox-group label {
     margin: 0;
     font-weight: normal;
     cursor: pointer;
@@ -528,13 +491,6 @@ footer p {
 
 .checkbox-group input[type="checkbox"] {
     margin: 0;
-}
-
-.checkbox-group label {
-    margin: 0;
-    font-weight: normal;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* Submit Button */
@@ -556,21 +512,53 @@ footer p {
     background-color: #1e40af;
 }
 
-/* Footer Wireframe Link Styling */
-footer p a {
-    color: #87ceeb;
-    text-decoration: none;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-}
-
 /* ===================================
-   RESPONSIVE DESIGN FOR CONTACT PAGE
+   RESPONSIVE DESIGN
    =================================== */
 
 @media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .mission {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .gallery-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery-images figure {
+        flex: none;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Contact page responsive styles */
     .contact-info {
         grid-template-columns: 1fr;
         gap: 2rem;
